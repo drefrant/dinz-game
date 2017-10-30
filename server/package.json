@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dinz && lint", 
+    "start": "npm run dinz && lint",
     "lint": "./node_modules/.bin/eslint **/*.js",
     "dinz": "./node_modules/.bin/nodemon src/app.js --exec "
   },
@@ -12,7 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "eslint": "^4.10.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
     "nodemon": "^1.12.1"
   },
   "devDependencies": {
